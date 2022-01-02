@@ -59,4 +59,4 @@ function mergeSortList2(l1, l2) {
 const lt1 = generateList([1, 2, 2])
 const lt2 = generateList([1, 2, 2])
 
-mergeSortList2(lt1, lt2)
+console.log(JSON.stringify(mergeSortList2(lt1, lt2)))
